@@ -1,3 +1,4 @@
+using Bogus;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -7,6 +8,7 @@ namespace MyApp.Namespace
     {
         public void OnGet()
         {
+            // var user = new Faker<User>();
         }
     }
 }
